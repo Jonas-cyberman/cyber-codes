@@ -428,6 +428,11 @@ nav ul li.nav-item {
 }
 
 @media (max-width: 580px) {
+    .navbar-brand {
+    color: #ff0000 !important;
+    font-weight: 900;
+    font-size: 1rem;
+}
     .timeline-info small {
         display: block;
         margin: 10px 0 0 0;
@@ -437,7 +442,7 @@ nav ul li.nav-item {
     border-radius: 50%;
     width: 250px;
 position: Relative;
-left:20%;
+left:10%;
 }
 }
 
